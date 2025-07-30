@@ -27,11 +27,20 @@ main {
   @apply min-h-screen pt-10;
 }
 h1 {
-  @apply text-6xl  text-gradient leading-tight tracking-[-2px] font-semibold;
+  @apply text-2xl text-gradient leading-tight tracking-[-1px] font-semibold;
+}
+h2 {
+  @apply text-lg text-dark-200;
 }
 
-h2 {
-  @apply text-3xl text-dark-200;
+
+@media (min-width: 640px) {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
 }
 
 label {

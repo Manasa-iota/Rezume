@@ -51,9 +51,14 @@ export default function Home() {
 
     <section className="main-section">
       <section className="text-center py-16 flex flex-col items-center gap-6">
-  <h1 className="text-4xl sm:text-5xl font-bold text-gradient max-w-3xl leading-tight">
+  <p className="block text-xl sm:hidden  font-medium text-gradient leading-tight px-4 text-center">
+    Land Your Dream Job with Smart Resume Feedback
+  </p>
+
+  <h1 className="hidden sm:block text-4xl lg:text-5xl font-bold text-gradient leading-tight text-center max-w-4xl mx-auto px-4">
     Land Your Dream Job with Smart Resume Feedback
   </h1>
+
   <p className="text-lg text-dark-200 max-w-xl">
     Upload your resume and get personalized AI-powered feedback to stand out.
   </p>

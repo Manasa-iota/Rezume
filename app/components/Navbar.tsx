@@ -23,6 +23,7 @@ const Navbar = () => {
             key={route.name}
             className={clsx(
               "pb-1 relative transition hover:text-black",
+              route.name=='Home' && "hidden sm:block",
               activePath === route.path
                 ? "text-black"
                 : "text-gray-400"
